@@ -1,0 +1,15 @@
+<mat-toolbar color="primary" class="toolbar">
+    <div class="container-full">
+        <div class="grid-align-center justify-space-between topbar">
+            <div>
+                <mat-icon class="star">star</mat-icon>
+            </div>
+            <div class="ui-form__field ui-form__field--search search-bar">
+                <input class="ui-form__field__input input" type="search" placeholder="Search">
+                <mat-icon class="ui-form__field--search__icon black">search</mat-icon>
+            </div>
+            <div class="cart">
+                <mat-icon [matBadge]="count" class="white">shopping_cart</mat-icon></div>
+            </div>
+        </div>
+</mat-toolbar>

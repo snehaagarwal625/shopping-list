@@ -1,0 +1,40 @@
+<div class="sort-filter">
+    <div class="sort">
+        <button mat-button class="button">
+            <div class="button-flex">
+                <mat-icon class="sort-filter-icon">unfold_more</mat-icon>
+                <p class="black">Sort</p>
+            </div>
+
+        </button>
+    </div>
+    <div class="filter">
+        <button mat-button class="button">
+            <div class="button-flex">
+                <mat-icon class="sort-filter-icon">filter_alt</mat-icon>
+                <p class="black">Filter</p>
+            </div>
+        </button>
+    </div>
+</div>
+<div class="box">
+    <mat-card *ngFor="let item of items" class="shopping-items">
+        <div class="card">
+            <img mat-card-image [src]="item.img_url" alt="Photo of items">
+            <mat-card-content>
+                <p>
+                    {{item.name}}
+                </p>
+                <div class="price-div">
+                    <p class="price"> Rs.{{item.price}}</p>
+                    <p class="org-price">900</p>
+                    <p class="discount">{{item.discount}}%off</p>
+                </div>
+
+            </mat-card-content>
+            <mat-card-actions class="add-cart">
+                <button mat-button class="button-cart" (click)="addCounter()">Add to Cart</button>
+            </mat-card-actions>
+        </div>
+    </mat-card>
+</div>

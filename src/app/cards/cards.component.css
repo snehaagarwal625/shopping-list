@@ -1,0 +1,78 @@
+.shopping-items {
+    /* max-width: 400px; */
+    /* display: inline-block !important; */
+    float: left;
+    /* max-width: 3oopx; */
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 40%;
+    max-width: 200px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .sort,.filter {
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
+  .sort {
+    border-right: 1px solid gray;
+  }
+
+  .sort-filter {
+      display: flex;
+      padding: 10px 0px;
+  }
+  .button {
+      display: flex;
+      color: white;
+      border: none;
+      width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .button-flex {
+      display: flex;
+  }
+  .sort-filter-icon {
+    margin: auto;
+    color: black;
+}
+  .black {
+      color: black;
+  }
+  .card {
+      padding: 10px;
+  }
+
+  .button-cart {
+      border-radius: 50px;
+      background-color: rgba(240, 198, 10, 0.986);
+  }
+  .price-div {
+      display: flex;
+  }
+  .org-price {
+      color: gray;
+      padding: 0 10px;
+      text-decoration: line-through;
+  }
+
+  .discount {
+      color: green;
+  }
+  .box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  mat-card:last-child {
+      align-self: flex-end;
+  }
+  .add-cart {
+    text-align: center;
+  }

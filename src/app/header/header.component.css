@@ -1,0 +1,32 @@
+.toolbar{
+    background-color: #2874f0;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.input {
+    border: none;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.star {
+    color: yellow;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+
+.container-full{
+    width: 100%;
+}

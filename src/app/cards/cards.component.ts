@@ -27,5 +27,5 @@ export class CardsComponent implements OnInit {
   addCounter() {
     this.listService.counter();
   }
-
+  
 }
